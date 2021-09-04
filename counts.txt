@@ -1,0 +1,6 @@
+229346 229346 458692 Y.txt
+2876174 2876174 5752348 N.txt
+
+The above results show that:
+229346 are verified purchases
+2876174 are unverified purchases

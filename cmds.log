@@ -1,0 +1,32 @@
+    1  pwd
+    2  ls
+    3  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+    4  ls
+    5  head amazon_reviews_us_Books_v1_02.tsv 
+    6  head cut -f12 amazon_reviews_us_Books_v1_02.tsv 
+    7  cut -f12 amazon_reviews_us_Books_v1_02.tsv | head
+    8  cut -f12 amazon_reviews_us_Books_v1_02.tsv > verified.txt
+    9  vi verified.txt 
+   10  grep Y verified.txt > Y.txt
+   11  wc Y.txt 
+   12  grep N verified.txt >N.txt
+   13  wc N.txt 
+   14  wc Y.txt > counts.txt
+   15  wc N.txt >> counts.txt 
+   16  cat counts.txt 
+   17  vi counts.txt 
+   18  pwd
+   19  ls
+   20  cd projects/
+   21  ls
+   22  .
+   23  cd .
+   24  cd ..
+   25  mkdir worksheet2
+   26  mv counts.txt verified.txt worksheet2/
+   27  ls
+   28  cd worksheet2
+   29  ls
+   30  git init
+   31  touch counts.txt 
+   32  history > cmds.log
